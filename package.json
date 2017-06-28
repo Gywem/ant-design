@@ -168,6 +168,7 @@
     "pub": "antd-tools run pub",
     "prepublish": "antd-tools run guard",
     "prepare": "npm run pre-publish",
+    "preinstall": "npm run pre-publish",
     "pre-publish": "npm run test-all && node ./scripts/prepub",
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt",
     "lint-staged": "lint-staged",
